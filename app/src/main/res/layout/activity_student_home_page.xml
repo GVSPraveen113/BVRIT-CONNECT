@@ -45,6 +45,7 @@
 
             <!-- Row 2 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/EventsCard"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -86,6 +87,7 @@
 
             <!-- Column 2 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/NoticeCard"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -128,6 +130,7 @@
 
             <!-- Column 1 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/NewsCard"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -167,6 +170,7 @@
 
             <!-- Column 2 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/InfoCard"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
