@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wallpaper"
+    android:background="@drawable/collegeview"
     android:orientation="vertical"
     tools:context="com.gvsdevelopers.bvritconnect.MainActivity">
 
@@ -14,11 +14,12 @@
         android:id="@+id/teacher"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:outlineAmbientShadowColor="#D518A5"
+        android:outlineAmbientShadowColor="#D51889"
         android:text="I'm a Teacher"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.833"
+        tools:layout_editor_absoluteX="16dp" />
 
     <Button
         android:id="@+id/student"
@@ -28,7 +29,7 @@
         android:text="I'm a Student"
         app:layout_constraintBottom_toTopOf="@+id/teacher"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139"
+        app:layout_constraintVertical_bias="0.897"
         tools:layout_editor_absoluteX="0dp" />
 
 
